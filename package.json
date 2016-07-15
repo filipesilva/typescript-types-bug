@@ -1,0 +1,12 @@
+{
+  "name": "typescript-types-bug",
+  "scripts": {
+    "tsc": "tsc",
+    "symlink": "node --eval \"require('fs').symlinkSync(require('path').resolve('./node_modules'), './folder/node_modules', 'dir')\""
+  },
+  "dependencies": {
+    "@types/angular": "^1.5.7",
+    "@types/jasmine": "^2.2.29",
+    "typescript": "^2.0.0"
+  }
+}

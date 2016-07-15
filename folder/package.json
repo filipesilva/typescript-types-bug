@@ -1,0 +1,11 @@
+{
+  "name": "typescript-types-bug-nested",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "@types/angular": "^1.5.7",
+    "@types/jasmine": "^2.2.29",
+    "typescript": "^2.0.0"
+  }
+}
